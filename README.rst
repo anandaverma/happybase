@@ -2,11 +2,13 @@ HappyBase
 =========
 This is forked version of **happybase** with time interval based flush along with batch size.
 
-#### Usage
-<table_name>.batch(batch_size=batch_size, time_interval=flush_interval)
+**Usage**
 
-#### Install using pip
-pip install git+https://github.com/anandaverma/happybase.git
+..* <table_name>.batch(batch_size=batch_size, time_interval=flush_interval)
+
+**Install using pip**
+
+..* pip install git+https://github.com/anandaverma/happybase.git
 
 **HappyBase** is a developer-friendly Python_ library to interact with Apache
 HBase_.
