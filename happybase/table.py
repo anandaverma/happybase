@@ -483,8 +483,8 @@ class Table(object):
         with self.batch(timestamp=timestamp, wal=wal) as batch:
             batch.delete(row, columns)
 
-    def batch(self, timestamp=None, batch_size=None, transaction=False,
-              wal=True, time_interval=None):
+    def batch(self, timestamp=None, batch_size=None, transaction=False, wal=True, time_interval=None):
+
         """Create a new batch operation for this table.
 
         This method returns a new :py:class:`Batch` instance that can be used
